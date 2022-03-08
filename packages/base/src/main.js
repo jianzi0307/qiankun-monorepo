@@ -16,6 +16,9 @@ registerMicroApps([
     entry: '//localhost:3100',
     container: '#container',
     activeRule: '/micro1',
+    props: {
+      store,
+    },
   },
   {
     name: 'micro2',
